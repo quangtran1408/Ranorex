@@ -20,13 +20,6 @@
 			ref="34d58c7f-51f5-466d-bed7-1b552739f279"
 			type="Recording">
 			</testmodule>
-			<testmodule
-			enabled="False"
-			id="1b237152-ce61-43fa-832c-02bf8f538216"
-			name="SaveFile"
-			ref="13cc8512-c2e6-459e-8756-6e615e47d189"
-			type="Recording">
-			</testmodule>
 			<smartfoldernode
 			datasource="AddUsers"
 			id="1c623a1f-5bef-4edf-9f3e-e13dcd8aa718"
@@ -214,10 +207,6 @@
 							<testmodule
 							id="92f7a130-6ae9-4dd5-9a6c-08651b4ff75d"
 							name="AddUser">
-							</testmodule>
-							<testmodule
-							id="1b237152-ce61-43fa-832c-02bf8f538216"
-							name="SaveFile">
 							</testmodule>
 						</smartfoldernode>
 						<teardown
