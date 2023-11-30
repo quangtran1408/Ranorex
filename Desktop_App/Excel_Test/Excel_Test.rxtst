@@ -151,6 +151,13 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
+			id="9c96754b-63cd-4cc2-9579-fe7a1e66eddc"
+			name="SaveFile"
+			ref="13cc8512-c2e6-459e-8756-6e615e47d189"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="a64facfa-8353-42c5-80a2-5aedb5809910"
 			name="StartAUT"
 			ref="0a3feb9b-d84a-4f35-9ab7-6648e035389b"
@@ -207,6 +214,10 @@
 							<testmodule
 							id="92f7a130-6ae9-4dd5-9a6c-08651b4ff75d"
 							name="AddUser">
+							</testmodule>
+							<testmodule
+							id="9c96754b-63cd-4cc2-9579-fe7a1e66eddc"
+							name="SaveFile">
 							</testmodule>
 						</smartfoldernode>
 						<teardown
