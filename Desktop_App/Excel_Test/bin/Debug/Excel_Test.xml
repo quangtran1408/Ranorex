@@ -1,0 +1,506 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Excel_Test</name>
+    </assembly>
+    <members>
+        <member name="T:Excel_Test.AddUser">
+             <summary>
+            The AddUser recording.
+             </summary>
+        </member>
+        <member name="F:Excel_Test.AddUser.repo">
+            <summary>
+            Holds an instance of the Excel_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.AddUser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.AddUser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.AddUser.hovaten">
+            <summary>
+            Gets or sets the value of variable hovaten.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.AddUser.manhanvien">
+            <summary>
+            Gets or sets the value of variable manhanvien.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.AddUser.tuoi">
+            <summary>
+            Gets or sets the value of variable tuoi.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.AddUser.nghenghiep">
+            <summary>
+            Gets or sets the value of variable nghenghiep.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.AddUser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Excel_Test.AddUser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.AddUser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Excel_Test.AddUser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Excel_Test.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:Excel_Test.CloseAUT.repo">
+            <summary>
+            Holds an instance of the Excel_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Excel_Test.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Excel_Test.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Excel_Test.Excel_TestRepository">
+            <summary>
+            The class representing the Excel_TestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Excel_TestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.Excel_TestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepository.Excel">
+            <summary>
+            The Excel folder.
+            </summary>
+        </member>
+        <member name="T:Excel_Test.Excel_TestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder">
+            <summary>
+            The ExcelAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Excel  folder.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder.blank_workbook_link">
+            <summary>
+            The blank_workbook_link item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder.blank_workbook_linkInfo">
+            <summary>
+            The blank_workbook_link item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder.save_button">
+            <summary>
+            The save_button item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder.save_buttonInfo">
+            <summary>
+            The save_button item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder.close_button">
+            <summary>
+            The close_button item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder.close_buttonInfo">
+            <summary>
+            The close_button item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder.dont_save_button">
+            <summary>
+            The dont_save_button item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder.dont_save_buttonInfo">
+            <summary>
+            The dont_save_button item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder.Row1">
+            <summary>
+            The Row1 folder.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.ExcelAppFolder.Row2">
+            <summary>
+            The Row2 folder.
+            </summary>
+        </member>
+        <member name="T:Excel_Test.Excel_TestRepositoryFolders.Row1Folder">
+            <summary>
+            The Row1Folder folder.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.Excel_TestRepositoryFolders.Row1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Row1  folder.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row1Folder.CellA1">
+            <summary>
+            The CellA1 item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row1Folder.CellA1Info">
+            <summary>
+            The CellA1 item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row1Folder.CellB1">
+            <summary>
+            The CellB1 item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row1Folder.CellB1Info">
+            <summary>
+            The CellB1 item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row1Folder.CellC1">
+            <summary>
+            The CellC1 item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row1Folder.CellC1Info">
+            <summary>
+            The CellC1 item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row1Folder.CellD1">
+            <summary>
+            The CellD1 item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row1Folder.CellD1Info">
+            <summary>
+            The CellD1 item info.
+            </summary>
+        </member>
+        <member name="T:Excel_Test.Excel_TestRepositoryFolders.Row2Folder">
+            <summary>
+            The Row2Folder folder.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.Excel_TestRepositoryFolders.Row2Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Row2  folder.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row2Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row2Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row2Folder.CellA2">
+            <summary>
+            The CellA2 item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row2Folder.CellA2Info">
+            <summary>
+            The CellA2 item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row2Folder.CellB2">
+            <summary>
+            The CellB2 item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row2Folder.CellB2Info">
+            <summary>
+            The CellB2 item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row2Folder.CellC2">
+            <summary>
+            The CellC2 item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row2Folder.CellC2Info">
+            <summary>
+            The CellC2 item info.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row2Folder.CellD2">
+            <summary>
+            The CellD2 item.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.Excel_TestRepositoryFolders.Row2Folder.CellD2Info">
+            <summary>
+            The CellD2 item info.
+            </summary>
+        </member>
+        <member name="T:Excel_Test.OpenBlankDocument">
+             <summary>
+            The OpenBlankDocument recording.
+             </summary>
+        </member>
+        <member name="F:Excel_Test.OpenBlankDocument.repo">
+            <summary>
+            Holds an instance of the Excel_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.OpenBlankDocument.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.OpenBlankDocument.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.OpenBlankDocument.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Excel_Test.OpenBlankDocument.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.OpenBlankDocument.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Excel_Test.OpenBlankDocument.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Excel_Test.InputHeader">
+             <summary>
+            The InputHeader recording.
+             </summary>
+        </member>
+        <member name="F:Excel_Test.InputHeader.repo">
+            <summary>
+            Holds an instance of the Excel_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.InputHeader.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.InputHeader.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.InputHeader.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Excel_Test.InputHeader.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.InputHeader.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Excel_Test.InputHeader.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Excel_Test.SaveFile">
+             <summary>
+            The SaveFile recording.
+             </summary>
+        </member>
+        <member name="F:Excel_Test.SaveFile.repo">
+            <summary>
+            Holds an instance of the Excel_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.SaveFile.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.SaveFile.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.SaveFile.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Excel_Test.SaveFile.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.SaveFile.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Excel_Test.SaveFile.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Excel_Test.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:Excel_Test.StartAUT.repo">
+            <summary>
+            Holds an instance of the Excel_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Excel_Test.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Excel_Test.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Excel_Test.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Excel_Test.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,13 @@
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\WordPress_Web\bin\Debug\TC_WordPress_Testing_DataSource.csv
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\WordPress_Web\bin\Debug\WordPress_Web.rxtmg
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\WordPress_Web\bin\Debug\WordPress_Web.rxtst
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\WordPress_Web\bin\Debug\WordPress_Web.exe.config
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\WordPress_Web\bin\Debug\WordPress_Web.xml
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\WordPress_Web\bin\Debug\WordPress_Web.exe
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\WordPress_Web\bin\Debug\WordPress_Web.pdb
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\WordPress_Web\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\WordPress_Web\obj\x86\Debug\WordPress_Web.csproj.AssemblyReference.cache
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\WordPress_Web\obj\x86\Debug\WordPress_Web.csproj.CoreCompileInputs.cache
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\WordPress_Web\obj\x86\Debug\WordPress_Web.csproj.CopyComplete
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\WordPress_Web\obj\x86\Debug\WordPress_Web.exe
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\WordPress_Web\obj\x86\Debug\WordPress_Web.pdb

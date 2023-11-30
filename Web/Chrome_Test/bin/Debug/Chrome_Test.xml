@@ -1,0 +1,367 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Chrome_Test</name>
+    </assembly>
+    <members>
+        <member name="T:Chrome_Test.Chrome_TestRepository">
+            <summary>
+            The class representing the Chrome_TestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Chrome_TestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.Chrome_TestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepository.Search_Result_window">
+            <summary>
+            The Search_Result_window folder.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepository.GoogleChrome_window">
+            <summary>
+            The GoogleChrome_window folder.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepository.Chrome_window">
+            <summary>
+            The Chrome_window folder.
+            </summary>
+        </member>
+        <member name="T:Chrome_Test.Chrome_TestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Chrome_Test.Chrome_TestRepositoryFolders.Search_Result_windowAppFolder">
+            <summary>
+            The Search_Result_windowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.Chrome_TestRepositoryFolders.Search_Result_windowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Search_Result_window  folder.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepositoryFolders.Search_Result_windowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepositoryFolders.Search_Result_windowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepositoryFolders.Search_Result_windowAppFolder.search_result_textbox">
+            <summary>
+            The search_result_textbox item.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepositoryFolders.Search_Result_windowAppFolder.search_result_textboxInfo">
+            <summary>
+            The search_result_textbox item info.
+            </summary>
+        </member>
+        <member name="T:Chrome_Test.Chrome_TestRepositoryFolders.GoogleChrome_windowAppFolder">
+            <summary>
+            The GoogleChrome_windowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.Chrome_TestRepositoryFolders.GoogleChrome_windowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GoogleChrome_window  folder.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepositoryFolders.GoogleChrome_windowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepositoryFolders.GoogleChrome_windowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepositoryFolders.GoogleChrome_windowAppFolder.address_textbox">
+            <summary>
+            The address_textbox item.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepositoryFolders.GoogleChrome_windowAppFolder.address_textboxInfo">
+            <summary>
+            The address_textbox item info.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepositoryFolders.GoogleChrome_windowAppFolder.back_button">
+            <summary>
+            The back_button item.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepositoryFolders.GoogleChrome_windowAppFolder.back_buttonInfo">
+            <summary>
+            The back_button item info.
+            </summary>
+        </member>
+        <member name="T:Chrome_Test.Chrome_TestRepositoryFolders.Chrome_windowAppFolder">
+            <summary>
+            The Chrome_windowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.Chrome_TestRepositoryFolders.Chrome_windowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Chrome_window  folder.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepositoryFolders.Chrome_windowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Chrome_TestRepositoryFolders.Chrome_windowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Chrome_Test.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Chrome_Test.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the Chrome_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Chrome_Test.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Chrome_Test.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Chrome_Test.BackToHomePage">
+             <summary>
+            The BackToHomePage recording.
+             </summary>
+        </member>
+        <member name="F:Chrome_Test.BackToHomePage.repo">
+            <summary>
+            Holds an instance of the Chrome_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.BackToHomePage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.BackToHomePage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.BackToHomePage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Chrome_Test.BackToHomePage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.BackToHomePage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Chrome_Test.BackToHomePage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Chrome_Test.Search">
+             <summary>
+            The Search recording.
+             </summary>
+        </member>
+        <member name="F:Chrome_Test.Search.repo">
+            <summary>
+            Holds an instance of the Chrome_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.Search.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Search.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Search.search_name">
+            <summary>
+            Gets or sets the value of variable search_name.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.Search.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Chrome_Test.Search.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.Search.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Chrome_Test.Search.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Chrome_Test.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Chrome_Test.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the Chrome_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Chrome_Test.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Chrome_Test.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Chrome_Test.Validation">
+             <summary>
+            The Validation recording.
+             </summary>
+        </member>
+        <member name="F:Chrome_Test.Validation.repo">
+            <summary>
+            Holds an instance of the Chrome_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.Validation.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Validation.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Validation.search_result">
+            <summary>
+            Gets or sets the value of variable search_result.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Validation.return_value">
+            <summary>
+            Gets or sets the value of variable return_value.
+            </summary>
+        </member>
+        <member name="P:Chrome_Test.Validation.search_name">
+            <summary>
+            Gets or sets the value of variable search_name.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.Validation.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Chrome_Test.Validation.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Chrome_Test.Validation.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Chrome_Test.Validation.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

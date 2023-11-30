@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="13cc8512-c2e6-459e-8756-6e615e47d189"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SaveFile"
+	namespace="Excel_Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d0ad64a9-9f74-4a90-be0d-13bbd5a7938e"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dd3f099d-7259-461b-863b-ade2b553836e"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@processname='EXCEL']/?/?/container[@caption='Ribbon']//container[@name='Ribbon']/toolbar[@name='Quick Access Toolbar']/button[@name='Save']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="a0d42900-9b7f-4d14-89f1-22b70cc73ab7"
+	name="Excel_TestRepository"
+	relativepath="Excel_TestRepository.rxrep">
+		<codegen
+		classname="Excel_TestRepository"
+		namespace="Excel_Test">
+		</codegen>
+		<rootfolder
+		id="ba1ca43b-7c78-4dae-9a09-ee871d6ecb3d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SaveFile.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

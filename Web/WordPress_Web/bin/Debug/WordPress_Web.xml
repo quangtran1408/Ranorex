@@ -1,0 +1,822 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WordPress_Web</name>
+    </assembly>
+    <members>
+        <member name="T:WordPress_Web.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.AddNewPost">
+             <summary>
+            The AddNewPost recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.AddNewPost.repo">
+            <summary>
+            Holds an instance of the WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.AddNewPost.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.AddNewPost.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.AddNewPost.var_title">
+            <summary>
+            Gets or sets the value of variable var_title.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.AddNewPost.var_content">
+            <summary>
+            Gets or sets the value of variable var_content.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.AddNewPost.var_return_posted_link">
+            <summary>
+            Gets or sets the value of variable var_return_posted_link.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.AddNewPost.var_return_title">
+            <summary>
+            Gets or sets the value of variable var_return_title.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.AddNewPost.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.AddNewPost.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.AddNewPost.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.AddNewPost.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.DeletePost">
+             <summary>
+            The DeletePost recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.DeletePost.repo">
+            <summary>
+            Holds an instance of the WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.DeletePost.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.DeletePost.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.DeletePost.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.DeletePost.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.DeletePost.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.DeletePost.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.Logout">
+             <summary>
+            The Logout recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.Logout.repo">
+            <summary>
+            Holds an instance of the WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Logout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.Logout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.Logout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.Login.repo">
+            <summary>
+            Holds an instance of the WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.Login.var_username">
+            <summary>
+            Gets or sets the value of variable var_username.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.Login.var_password">
+            <summary>
+            Gets or sets the value of variable var_password.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.ReturnToDashboard">
+             <summary>
+            The ReturnToDashboard recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.ReturnToDashboard.repo">
+            <summary>
+            Holds an instance of the WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.ReturnToDashboard.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.ReturnToDashboard.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.ReturnToDashboard.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.ReturnToDashboard.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.ReturnToDashboard.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.ReturnToDashboard.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.VerifyPostIsViewed">
+             <summary>
+            The VerifyPostIsViewed recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.VerifyPostIsViewed.repo">
+            <summary>
+            Holds an instance of the WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.VerifyPostIsViewed.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.VerifyPostIsViewed.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.VerifyPostIsViewed.var_blog_title">
+            <summary>
+            Gets or sets the value of variable var_blog_title.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.VerifyPostIsViewed.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.VerifyPostIsViewed.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.VerifyPostIsViewed.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.VerifyPostIsViewed.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.ViewAllPost">
+             <summary>
+            The ViewAllPost recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.ViewAllPost.repo">
+            <summary>
+            Holds an instance of the WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.ViewAllPost.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.ViewAllPost.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.ViewAllPost.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.ViewAllPost.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.ViewAllPost.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.ViewAllPost.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.ViewAddedPost">
+             <summary>
+            The ViewAddedPost recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.ViewAddedPost.repo">
+            <summary>
+            Holds an instance of the WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.ViewAddedPost.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.ViewAddedPost.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.ViewAddedPost.url_to_view">
+            <summary>
+            Gets or sets the value of variable url_to_view.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.ViewAddedPost.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.ViewAddedPost.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.ViewAddedPost.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.ViewAddedPost.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.WordPress_WebRepository">
+            <summary>
+            The class representing the WordPress_WebRepository element repository.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the WordPress_WebRepository element repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.WordPress_WebRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepository.var_posted_text">
+            <summary>
+            Gets or sets the value of variable var_posted_text.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepository.WordPress_Login_Page">
+            <summary>
+            The WordPress_Login_Page folder.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepository.Chrome_Web">
+            <summary>
+            The Chrome_Web folder.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepository.WordPress_Main_Page">
+            <summary>
+            The WordPress_Main_Page folder.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepository.WordPress_Blog_Page">
+            <summary>
+            The WordPress_Blog_Page folder.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.WordPress_WebRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Login_PageAppFolder">
+            <summary>
+            The WordPress_Login_PageAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Login_PageAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new WordPress_Login_Page  folder.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Login_PageAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Login_PageAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Login_PageAppFolder.login_tbx">
+            <summary>
+            The login_tbx item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Login_PageAppFolder.login_tbxInfo">
+            <summary>
+            The login_tbx item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Login_PageAppFolder.password_tbx">
+            <summary>
+            The password_tbx item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Login_PageAppFolder.password_tbxInfo">
+            <summary>
+            The password_tbx item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Login_PageAppFolder.login_btn">
+            <summary>
+            The login_btn item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Login_PageAppFolder.login_btnInfo">
+            <summary>
+            The login_btn item info.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.WordPress_WebRepositoryFolders.Chrome_WebAppFolder">
+            <summary>
+            The Chrome_WebAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.WordPress_WebRepositoryFolders.Chrome_WebAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Chrome_Web  folder.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.Chrome_WebAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.Chrome_WebAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder">
+            <summary>
+            The WordPress_Main_PageAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new WordPress_Main_Page  folder.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.title_tbx">
+            <summary>
+            The title_tbx item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.title_tbxInfo">
+            <summary>
+            The title_tbx item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.posts_link">
+            <summary>
+            The posts_link item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.posts_linkInfo">
+            <summary>
+            The posts_link item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.add_new_link">
+            <summary>
+            The add_new_link item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.add_new_linkInfo">
+            <summary>
+            The add_new_link item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.publish_btn">
+            <summary>
+            The publish_btn item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.publish_btnInfo">
+            <summary>
+            The publish_btn item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.content_tbx">
+            <summary>
+            The content_tbx item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.content_tbxInfo">
+            <summary>
+            The content_tbx item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.permalink_lbl">
+            <summary>
+            The permalink_lbl item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.permalink_lblInfo">
+            <summary>
+            The permalink_lbl item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.view_post_btn">
+            <summary>
+            The view_post_btn item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.view_post_btnInfo">
+            <summary>
+            The view_post_btn item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.home_link">
+            <summary>
+            The home_link item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.home_linkInfo">
+            <summary>
+            The home_link item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.all_posts_link">
+            <summary>
+            The all_posts_link item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.all_posts_linkInfo">
+            <summary>
+            The all_posts_link item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.move_to_trash_link">
+            <summary>
+            The move_to_trash_link item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.move_to_trash_linkInfo">
+            <summary>
+            The move_to_trash_link item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.remove_post_message">
+            <summary>
+            The remove_post_message item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.remove_post_messageInfo">
+            <summary>
+            The remove_post_message item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.edit_post_link">
+            <summary>
+            The edit_post_link item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.edit_post_linkInfo">
+            <summary>
+            The edit_post_link item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.trash_link">
+            <summary>
+            The trash_link item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.trash_linkInfo">
+            <summary>
+            The trash_link item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.all_title_checkbox">
+            <summary>
+            The all_title_checkbox item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.all_title_checkboxInfo">
+            <summary>
+            The all_title_checkbox item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.apply_to_delete_all_btn">
+            <summary>
+            The apply_to_delete_all_btn item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.apply_to_delete_all_btnInfo">
+            <summary>
+            The apply_to_delete_all_btn item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.action_cbb">
+            <summary>
+            The action_cbb item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.action_cbbInfo">
+            <summary>
+            The action_cbb item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.remove_all_posts_message">
+            <summary>
+            The remove_all_posts_message item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.remove_all_posts_messageInfo">
+            <summary>
+            The remove_all_posts_message item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.post_published_message">
+            <summary>
+            The post_published_message item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.post_published_messageInfo">
+            <summary>
+            The post_published_message item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.my_account_link">
+            <summary>
+            The my_account_link item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.my_account_linkInfo">
+            <summary>
+            The my_account_link item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.log_out_link">
+            <summary>
+            The log_out_link item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Main_PageAppFolder.log_out_linkInfo">
+            <summary>
+            The log_out_link item info.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Blog_PageAppFolder">
+            <summary>
+            The WordPress_Blog_PageAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Blog_PageAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new WordPress_Blog_Page  folder.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Blog_PageAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Blog_PageAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Blog_PageAppFolder.title_lbl">
+            <summary>
+            The title_lbl item.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.WordPress_WebRepositoryFolders.WordPress_Blog_PageAppFolder.title_lblInfo">
+            <summary>
+            The title_lbl item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

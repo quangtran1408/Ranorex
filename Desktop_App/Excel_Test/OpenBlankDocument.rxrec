@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="34d58c7f-51f5-466d-bed7-1b552739f279"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBlankDocument"
+	namespace="Excel_Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="OpenBlankDocument"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="Mouse_Click_blank_workbook_link"
+		namespace="Excel_Test"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="01659246-8268-40d5-bf6b-2748c090dc9f">
+				<argument
+				argname="linkInfo"
+				id="a47004ed-51a7-48e5-8a70-e310835e4699">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="5303ade7-797a-4525-862b-7e2f6bed2255"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@processname='EXCEL']//link[@name='Blank workbook' and @visible='True']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="a0d42900-9b7f-4d14-89f1-22b70cc73ab7"
+	name="Excel_TestRepository"
+	relativepath="Excel_TestRepository.rxrep">
+		<codegen
+		classname="Excel_TestRepository"
+		namespace="Excel_Test">
+		</codegen>
+		<rootfolder
+		id="ba1ca43b-7c78-4dae-9a09-ee871d6ecb3d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBlankDocument.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

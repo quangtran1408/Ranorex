@@ -1,0 +1,351 @@
+﻿<repository
+id="9213722d-69ae-41ca-87d5-0e8b6021f321"
+name="WordPress_WebRepository">
+	<codegen
+	classname="WordPress_WebRepository"
+	namespace="WordPress_Web">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b93696aa-c975-459f-a9f8-c5ff11fcb831"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="c5c0629b-cf07-4542-bacf-9ed51373a673"
+		isrooted="True"
+		name="WordPress_Login_Page"
+		refimgid="59ed68e7-0837-4b1b-93ed-7574bae845b5"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="3998301e-cebf-434a-80ac-e9c7c18215ac"
+			name="login_tbx"
+			refimgid="84ce8530-5a4a-4fb5-ab11-e07d12fa9234"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//input[#'user_login']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="54797184-5dd6-48fc-80c1-76bfaa79e261"
+			name="password_tbx"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//input[#'user_pass']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="10cbeb94-7e3e-4e33-93c9-edbb626fd7a1"
+			name="login_btn"
+			refimgid="5f73bffc-00a5-4f07-adba-d0680b536146"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//input[#'wp-submit']
+			</item>
+			<basepath>
+				/dom[@browsername='Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="webdocument"
+		id="adb87cfd-4e0a-4358-bd98-96f3a95b49cb"
+		isrooted="True"
+		name="Chrome_Web"
+		searchtimeout="5000ms"
+		usecache="True">
+			<basepath>
+				/dom[@browsername='Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKpSURBVDhPZdPJTxNxFAfwOUmCURDjgkGoIMjW
+TqFqCJZ2CiogIEQ9mYiJ0XjyD1BBr16kBSSVRYp7TDh6MCIWkDUmjJ64WVO6EZYW0LjM8Pv65tcR
+QV7yyfc3nfdemulU+L/m7RYp7LC45sotvrnyoyCMruWIZPGE7aJBb9taPruYHJYszojDAg2dWVgq
+pvwnZCe2IqfWq4/FS/sgJBXL1MCH6EzNRQjaihjPMjMLbDBrNcmbloRsZic1aY3rAlai5+wJEyOY
+tYramfOXmpx8WHxZb3h8tSx+0yoyP90MX6jCz+mPCMzGsPKDgUW9WJProEwWM5UrAmHKhCgJ5ucN
+nkp3LWYcIm01Ini+kg9e93zDsbsx7qJ7FcGFGNTpKigTRqgTJijjRqaMF7oE05OzsvlpPe7dKMPX
+kgJ8Hx5Ebcsyiu/ESHTdtd5VsNgU1PF8ThnLY8QnGPvqYOyrZSWdZzBZISIYXYPYvMSZm6NEy/h1
+YD5KgzlQRrNpOFtLCIW9NSjQXWmSmN8fhbFpCcbbi4RSO/PrJf481NFM3SFOyO+u9uX3VLO8nmpQ
+Yir0GZe7l5F/a3FdATnXHgNbeAP1Q7ruIJSRNFnI66x05nZVIreriit/0YiZyDIa2qPIvbnANdLC
+mcgKlKnjUIYPkFSoI6m0INUjHHFXSDnuU8h5eBp/0/HsEga+jPGvrC2bDH5C6+saGtwLlShDezh4
+98Vf7ayOCidhhztOaqDJelDBNNrZ1kW/0Nv9UId202AKFG8K1oZ2xV8krTKc9uTMNoec2V6OLKIl
+1+bg+aifnvj7JKZ4d1KSwR0yvEmb/w/akoxWu8vgkmBo1bkkZnWX0tB2XSINJ7q2DG8sWmQgfekt
+Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="f7e264bd-8534-45b8-965e-65fc2f86c78b"
+		isrooted="True"
+		name="WordPress_Main_Page"
+		searchtimeout="5000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f3db8993-60eb-4414-9b97-681e7f33bf15"
+			name="title_tbx"
+			refimgid="4ba428ea-d580-46ee-bec2-6a0b37b45fb0"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//input[#'title']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="1d376da0-1cf2-4855-a965-591cddd3b1d3"
+			name="posts_link"
+			refimgid="86784b0a-1ca2-42e9-b9d1-8d5f55164500"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//li[#'menu-posts']//div[@innertext='Posts']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="9b550187-389d-48c0-bc12-28d2315bedd2"
+			name="add_new_link"
+			refimgid="889fe9d1-e666-41bd-8fee-8aaed3830e5f"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//li[#'menu-posts']//a[@innertext='Add New']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="802f3a4c-f440-4cef-b987-d6b25b9a9f2e"
+			name="publish_btn"
+			refimgid="86e6a60f-4fb8-4b05-9bd8-624addeceb34"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//input[#'publish']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="53fc7297-763c-4a7e-bb17-10a3f8b4f780"
+			name="content_tbx"
+			refimgid="f6d5f222-d319-4115-b1a5-59d580bff65d"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//textarea[#'content']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="6812ce44-395a-4553-b0d4-feaf8e83fb00"
+			name="permalink_lbl"
+			refimgid="3b6d0d23-144d-44ee-80d4-3a1eb40fc882"
+			refpath="/dom[@domain='webtest.ranorex.org']//span[#'sample-permalink']"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//span[#'sample-permalink']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="3df57996-3411-4ddf-8e48-f7564a9ddd8c"
+			name="view_post_btn"
+			refimgid="2d7f562a-348d-4e79-b805-1742e079a13b"
+			refpath="/dom[@domain='webtest.ranorex.org']//span[#'view-post-btn']/a[@innertext='View Post']"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//span[#'view-post-btn']/a[@innertext='View Post']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="e73415d0-1c9d-4f31-b573-a7c7cbbe778a"
+			name="home_link"
+			refimgid="9b8951a8-a13d-42b8-8f90-14221db787dc"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//a[@innertext='Ranorex Webtest']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="4beaec58-31fc-47cf-a63e-451e1beb4b42"
+			name="all_posts_link"
+			refimgid="38f547f9-3958-4ac9-9879-de2cb952f372"
+			refpath="/dom[@domain='webtest.ranorex.org']//li[#'menu-posts']/ul/li[2]/a[@innertext='All Posts']"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//li[#'menu-posts']//a[@innertext='All Posts']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="41e00144-96da-4a25-8cf5-d14e88c6c763"
+			name="move_to_trash_link"
+			refimgid="ba675317-a39f-4d7a-a735-4be81d2b33fc"
+			refpath="/dom[@domain='webtest.ranorex.org']//div[#'delete-action']/a[@innertext='Move to Trash']"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//div[#'delete-action']/a[@innertext='Move to Trash']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="596ddef7-b253-4586-97ef-54f74f8a042d"
+			name="remove_post_message"
+			refimgid="32966a2c-ab73-4182-b4a0-30eb3c619d59"
+			refpath="/dom[@domain='webtest.ranorex.org']//div[#'message']/p[@innertext>'1 post moved to the Trash.']"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//div[#'message']/p[@innertext&gt;'1 post moved to the Trash.']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="c7b6fb1b-2590-4612-97e8-44dd612708e8"
+			name="edit_post_link"
+			refimgid="ba0ee88b-383e-4345-8a7d-1f859602162a"
+			refpath="/dom[@domain='webtest.ranorex.org']//li[#'wp-admin-bar-edit']/a[@innertext='Edit Post']"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//li[#'wp-admin-bar-edit']/a[@innertext='Edit Post']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="b8675659-e7d6-4e8d-90b0-8569bcf2562e"
+			name="trash_link"
+			refimgid="e225512b-f0fc-48d8-bf79-528980a42bae"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//div[#'wpbody-content']//a[@innertext~'Trash']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6102195d-6913-4c99-8e9b-3ea777cc8368"
+			name="all_title_checkbox"
+			refimgid="a3106fd0-733d-436f-be8c-41698742aa29"
+			refpath="/dom[@domain='webtest.ranorex.org']//th[#'cb']/input[@type='checkbox']"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//th[#'cb']/input[@type='checkbox']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="342faa8f-2b11-45f1-ac4d-7f564138d7b3"
+			name="apply_to_delete_all_btn"
+			refimgid="4bb05c81-a8a6-4bfc-ab10-b568e24429bf"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//form[#'posts-filter']/div[1]//input[@tagvalue='Apply']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="cb8af2d5-00a2-4bbc-bb76-dc148bbd3bf1"
+			name="action_cbb"
+			refimgid="af3a77da-44a9-4bb4-ad68-f50079ecb996"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//form[#'posts-filter']//select[@name='action']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="c2c556c1-46c1-4aa6-bb8f-fca87c00062d"
+			name="remove_all_posts_message"
+			refimgid="ad2d0c82-f85f-4962-a0f9-e51fc37f4209"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//div[#'message']/p[@innertext~'permanently deleted']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="42354ecf-2498-4957-8aaf-b2b496aac714"
+			name="post_published_message"
+			refimgid="794dce35-00c2-4e51-b7e2-4a74239446c9"
+			refpath="/dom[@domain='webtest.ranorex.org']//div[#'message']/p[@innertext='Post published. ']"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//div[#'message']/p[@innertext='Post published. ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="5009920b-86e8-4840-8ed3-300c216bbb3a"
+			name="my_account_link"
+			refimgid="a25aa256-d96d-4ba3-b05e-abca2f76f855"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//li[#'wp-admin-bar-my-account']/a[@innertext&gt;'Howdy']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="4af00731-eaca-4d98-a2a5-a37bba65f04b"
+			name="log_out_link"
+			refimgid="750f5bf2-c8a2-4d39-98bf-4816e78d4dc1"
+			refpath="/dom[@domain='webtest.ranorex.org']//li[#'wp-admin-bar-logout']/a[@innertext='Log Out']"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//li[#'wp-admin-bar-logout']/a[@innertext='Log Out']
+			</item>
+			<basepath>
+				/dom[@browsername='Chrome']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="66ff426a-88db-42c0-9ee0-7ba677f8ca2f"
+		isrooted="True"
+		name="WordPress_Blog_Page"
+		searchtimeout="5000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="ef6cdd89-e77d-4922-9184-386d5eb639dc"
+			name="title_lbl"
+			refimgid="67d9c4cb-4f97-47f5-ab7d-54d51be24712"
+			refpath="/dom[@domain='webtest.ranorex.org']//h1[#'pagetitle']"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@browsername='Chrome']//h1[#'pagetitle']
+			</item>
+			<basepath>
+				/dom[@browsername='Chrome']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="fd0fc36d-a0f3-4630-8326-dbd419b438ad"
+		name="var_posted_text">
+		</var>
+	</variables>
+</repository>

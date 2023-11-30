@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{934D0D7C-3BD3-496A-B6B6-99C0864E0082}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>{ED05A75A-4FF9-4BA0-8629-326ACBFBBEEB}</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Chrome_Test[]]&#xD;&#xA;Solution Chrome_Test\Chrome_Test&#xD;&#xA;Solution Chrome_Test" />
+  <StartupProject value="{934D0D7C-3BD3-496A-B6B6-99C0864E0082}" />
+</Properties>

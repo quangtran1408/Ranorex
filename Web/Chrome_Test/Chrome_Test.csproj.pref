@@ -1,0 +1,23 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Chrome_Test.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Chrome_Test.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Chrome_Test.CloseBrowser.Close_application_Chrome_window(RepoItemInfo webdocumentInfo)" />
+      <Element value="Chrome_Test.CloseBrowser.Close_application_Chrome_window(RepoItemInfo formInfo)" />
+      <Element value="Chrome_Test.Validation.Validate_search_result_textbox1(RepoItemInfo textareatagInfo)" />
+      <Element value="Chrome_Test.Validation.Get_value_search_result_textbox1(RepoItemInfo textareatagInfo)" />
+      <Element value="Chrome_Test.Validation.Get_value_search_result_textbox(RepoItemInfo textareatagInfo)" />
+      <Element value="Chrome_Test.Validation.Validate_search_result_textbox(RepoItemInfo textareatagInfo)" />
+    </Array>
+  </Properties>
+</Properties>

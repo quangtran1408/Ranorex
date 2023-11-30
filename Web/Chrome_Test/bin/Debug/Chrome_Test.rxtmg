@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Chrome_Test"
+      id="c09e6be2-d2d8-471d-8ee1-b2b13a6b8064"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Chrome_Test"
+      id="c09e6be2-d2d8-471d-8ee1-b2b13a6b8064"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

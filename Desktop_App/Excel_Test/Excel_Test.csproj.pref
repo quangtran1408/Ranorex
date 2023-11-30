@@ -1,0 +1,19 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Excel_Test.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Excel_Test.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Excel_Test.CloseAUT.Mouse_Click_close_button(RepoItemInfo buttonInfo)" />
+      <Element value="Excel_Test.CloseAUT.Mouse_Click_dont_save_button(RepoItemInfo buttonInfo)" />
+      <Element value="Excel_Test.OpenBlankDocument.Mouse_Click_blank_workbook_link(RepoItemInfo linkInfo)" />
+    </Array>
+  </Properties>
+</Properties>

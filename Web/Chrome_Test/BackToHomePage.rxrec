@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c5b83313-ab86-4e05-9a58-4a98973ad8a0"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BackToHomePage"
+	namespace="Chrome_Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="20;15"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c957acd4-ff3e-415a-a229-b1e29b540735"
+		sx="20"
+		sy="56"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="521f5d82-d28d-470f-9a52-ac9deef1c93a"
+			sourcename="Recorder">
+				<path>
+					/form[@title='Google - Google Chrome']//toolbar[@accessiblerole='ToolBar']//button[@accessiblename='Back']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="49cf3a26-a542-4035-b0ff-0e29ce9bcbe4"
+	name="Chrome_TestRepository"
+	relativepath="Chrome_TestRepository.rxrep">
+		<codegen
+		classname="Chrome_TestRepository"
+		namespace="Chrome_Test">
+		</codegen>
+		<rootfolder
+		id="b95a0521-1a6a-49fe-a98f-206201c64030"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BackToHomePage.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

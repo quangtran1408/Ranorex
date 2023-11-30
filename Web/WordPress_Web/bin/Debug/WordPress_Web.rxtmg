@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="WordPress_Web"
+      id="b02d3b86-bd53-4c67-ba00-2e2941d0b438"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="WordPress_Web"
+      id="b02d3b86-bd53-4c67-ba00-2e2941d0b438"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

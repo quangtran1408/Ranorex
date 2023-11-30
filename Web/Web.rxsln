@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 10.7.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{410FC326-2B39-4A4D-ACD4-68BA8596FA7D}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chrome_Test", "Chrome_Test\Chrome_Test.csproj", "{934D0D7C-3BD3-496A-B6B6-99C0864E0082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordPress_Web", "WordPress_Web\WordPress_Web.csproj", "{ED05A75A-4FF9-4BA0-8629-326ACBFBBEEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{934D0D7C-3BD3-496A-B6B6-99C0864E0082}.Debug|x86.Build.0 = Debug|x86
+		{934D0D7C-3BD3-496A-B6B6-99C0864E0082}.Debug|x86.ActiveCfg = Debug|x86
+		{934D0D7C-3BD3-496A-B6B6-99C0864E0082}.Release|x86.Build.0 = Release|x86
+		{934D0D7C-3BD3-496A-B6B6-99C0864E0082}.Release|x86.ActiveCfg = Release|x86
+		{ED05A75A-4FF9-4BA0-8629-326ACBFBBEEB}.Debug|x86.Build.0 = Debug|x86
+		{ED05A75A-4FF9-4BA0-8629-326ACBFBBEEB}.Debug|x86.ActiveCfg = Debug|x86
+		{ED05A75A-4FF9-4BA0-8629-326ACBFBBEEB}.Release|x86.Build.0 = Release|x86
+		{ED05A75A-4FF9-4BA0-8629-326ACBFBBEEB}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

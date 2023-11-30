@@ -1,0 +1,13 @@
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\Chrome_Test\bin\Debug\Chrome_Test.rxtmg
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\Chrome_Test\bin\Debug\Chrome_Test.rxtst
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\Chrome_Test\bin\Debug\Chrome_Test.exe.config
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\Chrome_Test\bin\Debug\Chrome_Test.xml
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\Chrome_Test\bin\Debug\Chrome_Test.exe
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\Chrome_Test\bin\Debug\Chrome_Test.pdb
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\Chrome_Test\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\Chrome_Test\obj\x86\Debug\Chrome_Test.csproj.AssemblyReference.cache
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\Chrome_Test\obj\x86\Debug\Chrome_Test.csproj.CoreCompileInputs.cache
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\Chrome_Test\obj\x86\Debug\Chrome_Test.csproj.CopyComplete
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\Chrome_Test\obj\x86\Debug\Chrome_Test.exe
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\Chrome_Test\obj\x86\Debug\Chrome_Test.pdb
+C:\Users\quang.nhat.tran\Documents\Ranorex\RanorexStudio Projects\Web\Chrome_Test\bin\Debug\RepositoryImages\Chrome_TestRepositoryb95a0521.rximgres
