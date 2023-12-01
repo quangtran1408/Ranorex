@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0586bbef-f5aa-4f02-a829-683f99c6e1bc"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Logout"
+	namespace="CRM_TestSuite.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="EnsureVisible"
+		enabled="True"
+		optional="False"
+		searchpropertyid="4a796655-2720-4fa3-ada1-14aa6b42496c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c4de19e6-1100-4348-b3f0-bc19aa1f272d"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='crm.logigear.com']//a[@innertext='Logout']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="923ae1c0-9d95-4af9-9bc6-a7017c2b6902">
+				<argument
+				argname="argument1"
+				id="26b27ba7-d879-4a87-823e-f4cc00a45e5b">
+					<argvaluetype>
+						Ranorex.Duration, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+						5000ms
+					</argvalue>
+				</argument>
+			</arguments>
+		</invokeactionrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="36;4"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="17e6b2ea-9f00-4b1f-80de-bfd5f1df622e"
+		sx="1120"
+		sy="168"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c4de19e6-1100-4348-b3f0-bc19aa1f272d"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="atag"
+				rect="1084,164,62,14"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						link logout
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Logout
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						link logout
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						http://crm.logigear.com/Authenticate/DoLogOff
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='crm.logigear.com']//div[#'container']/div[1]/div[2]//a[@innertext='Logout']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="3d1601ed-0744-4644-8096-ce248b9cf357">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA4AKMDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCz5v8A
+s/rR5v8As/rUVFeZyRM/bT7kvm/7P60eb/s/rUVFHJEPbT7kvm/7P60eb/s/rUVFHJEPbT7kvm/7
+P60eb/s/rUVFHJEPbT7kvm/7P60eb/s/rUVFHJEPbT7kvm/7P60eb/s/rUVFHJEPbT7kvm/7P60e
+b/s/rUVFHJEPbT7kvm/7P60eb/s/rUVFHJEPbT7kvm/7P60eb/s/rUVFHJEPbT7kvm/7P60eb/s/
+rUVFHJEPbT7kvm/7P60VFRRyRD20+45Ed/uKzY9BmkZWQ4ZSp9CKsWuPJn3EgbR0GalEiSRSMqg+
+WigFwCa25VYhK5Rp5ikAyY3x67TVwImwHavleXkvgfe+v9KkmAZpCVUlVTBwOOarkDlM1gVOGBBH
+Y0yQkRsR1ANapRDJIdm9vM+YbQeMe/T61lz42SbemDiocbFRj7y9SurTtGH81QD60oFwwysqEe3/
+AOqrGlp5kbYIVyrKrH+E44+nJP5VLdp5bx5IZwqqzD+I4OfryB+dXyaXPQq+7zWS0v0RUMd0FDFh
+g9Djr+lJsuf+ei/5/CtFkd7KHYjNgt0GalWNNi5RfL8vLNjkN9aXKcvtn/KvuRk7Ln/nov8An8KN
+lz/z0X/P4Vpz26SzW8W3bEzD5kOCfkY9R7gVVtb208qOOdgrbEILIRk45ySPrVezY/bP+Vfcitsu
+T/y0X8v/AK1KUuQcF1BHt/8AWrXRUUrIqrhpflYAcqR29qp3GftD7hg7j2xUyjZCdZr7K+5FS3d2
+Z1c52nFTVBb/AOtm/wB7/Gp6hk4lJVXZdvyQUUUUjnCiiigAooooAKKf5Mu7b5b5642mhY2aUR42
+sTjmnZgMoqYW77mXgFSAc+9MeKRH2lTknA46/SizHZjKbIMxMB6GpxbykMShG0ZIINIkRdSxIVR3
+NFmON00yjG8kagCJ84wTjqPoRTvOkzkwuTjA9h9AOKuPE6HpkYzkdMUgikJIEbEjqAOlVd7HVLEx
+le8N/NkAvJgABbjj1QH+lL9tm/59x/37H+FTCOQruCNt9ccUnlvs37G2+uOKV2R7Wn/J+LHWdxcT
+XlkZYWWNiWViAcjY2OR9e9Xxpw8lY2YMAkSHK8EI2f1qjY3YsZPKk4tm6HtG39Aa1Z7y3t4TLLKo
+UDPXr9K7INNaCTTWhhfaHgklijgUosrgfIP7x9qY1zIxyYD+Ax/SpIizKXcbWdmcj0yScfrTq5Ju
+7Ye1p7OF/myC2Db5GZSu455qeiipM6tT2k+a1gooopGYUUUUAFFFFAFx5oxAUVhnZjCg46+9MMqG
++Em75cjnHtRRV87G3celxGY/nOHDLzjqAaBNGT8zn/WM3GemKKKOdj5mDyxGLYGUfJjgHGc571FG
+yND5Ttt+bcDiiijmuK5K0kOwxLINuzAYg9c5p3nQGUtv6OCM7umOwHeiimpsfMN89NyfPwA+eD36
+U6T/AFEjnKhkUBSCKKKad0xp3KJAYEEAg8EGmLDEjBliRSO4UCiis7kD6KKKQBRRRQAUUUUAFFFF
+ABRRRQB//9k=
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e42a9de7-eb3c-4f8f-ae00-c7df0559f4ea"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2d631721-54af-4ba4-ad34-ee41c0f2514d"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='crm.logigear.com']//input[@name='username']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e5ab7204-0643-49f4-8036-b80f8ce2c46e"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8c69c82d-755c-4afa-8000-69ae872eb84c"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='crm.logigear.com']//input[@name='password']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="d4859c53-d0e4-455f-b7c3-1b9bce526564"
+	name="CRM_TestSuiteRepository"
+	relativepath="..\CRM_TestSuiteRepository.rxrep">
+		<codegen
+		classname="CRM_TestSuiteRepository"
+		namespace="CRM_TestSuite">
+		</codegen>
+		<rootfolder
+		id="51357cab-70a5-4b91-9e92-f4fc0c0999db"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Logout.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
