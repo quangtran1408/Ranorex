@@ -1,0 +1,96 @@
+﻿<repository
+id="d4859c53-d0e4-455f-b7c3-1b9bce526564"
+name="CRM_TestSuiteRepository">
+	<codegen
+	classname="CRM_TestSuiteRepository"
+	namespace="CRM_TestSuite">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="51357cab-70a5-4b91-9e92-f4fc0c0999db"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="5d12e947-ae92-4e11-8863-43d56d9297ba"
+		isrooted="True"
+		name="AUT"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c0930ea6-9721-4f5e-837f-54c52483d1d0"
+			name="login_btn"
+			refimgid="5fcb67fa-d9d6-4a0e-affc-cb082d4d648c"
+			robustPath="/dom[@domain='crm.logigear.com']//div[#'lform']/?/?/input[@type='submit']"
+			searchtimeout="30000ms">
+				/dom[@domain='crm.logigear.com']//input[@type='submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2d631721-54af-4ba4-ad34-ee41c0f2514d"
+			name="username_tbx"
+			refimgid="1cca156f-d785-4ddb-93e8-8e20a28b514a"
+			robustPath="/dom[@domain='crm.logigear.com']//div[#'lform']/?/?/input[@name='username']"
+			searchtimeout="30000ms">
+				/dom[@domain='crm.logigear.com']//input[@name='username']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8c69c82d-755c-4afa-8000-69ae872eb84c"
+			name="password_tbx"
+			refimgid="e39c8d31-57a6-4e97-b180-dfd1d7c73c21"
+			robustPath="/dom[@domain='crm.logigear.com']//div[#'lform']/?/?/input[@name='password']"
+			searchtimeout="30000ms">
+				/dom[@domain='crm.logigear.com']//input[@name='password']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="c4de19e6-1100-4348-b3f0-bc19aa1f272d"
+			name="logout_lnk"
+			refimgid="3e734544-e6d7-4bea-a31e-e6ff127e0f32"
+			robustPath="/dom[@domain='crm.logigear.com']//div[#'container']//a[@innertext='Logout']"
+			searchtimeout="30000ms">
+				/dom[@domain='crm.logigear.com']//a[@innertext='Logout']
+			</item>
+			<basepath>
+				/dom[@domain='crm.logigear.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="aacd678a-9832-4b0b-9eb9-fbbb0536b961"
+		name="varPassword">
+			Lmkr0000000
+		</var>
+		<var
+		id="7502efb6-c801-4b46-b545-15e6d72aaf14"
+		name="varUsername">
+		</var>
+	</variables>
+</repository>

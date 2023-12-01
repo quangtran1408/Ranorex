@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7481d9dc-9854-41d3-8e51-24c20bdc7996"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="CRM_TestSuite.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CloseBrowser"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="Close_application_AUT"
+		namespace="CRM_TestSuite.Recordings"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="52348e97-53f0-4a67-bbe2-2c1c5e75c5d4">
+				<argument
+				argname="webdocumentInfo"
+				id="b9cdf691-8024-4afa-a678-2cae2b2c7a16">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="5d12e947-ae92-4e11-8863-43d56d9297ba"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='crm.logigear.com']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="d4859c53-d0e4-455f-b7c3-1b9bce526564"
+	name="CRM_TestSuiteRepository"
+	relativepath="..\CRM_TestSuiteRepository.rxrep">
+		<codegen
+		classname="CRM_TestSuiteRepository"
+		namespace="CRM_TestSuite">
+		</codegen>
+		<rootfolder
+		id="51357cab-70a5-4b91-9e92-f4fc0c0999db"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

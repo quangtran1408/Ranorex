@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chrome_Test", "Chrome_Test\Chrome_Test.csproj", "{934D0D7C-3BD3-496A-B6B6-99C0864E0082}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordPress_Web", "WordPress_Web\WordPress_Web.csproj", "{ED05A75A-4FF9-4BA0-8629-326ACBFBBEEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordPress_Test", "WordPress_Web\WordPress_Test.csproj", "{ED05A75A-4FF9-4BA0-8629-326ACBFBBEEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM_Test", "..\CRM_Test\CRM_TestSuite\CRM_TestSuite\CRM_Test.csproj", "{3042C06F-21CC-45F4-B9D3-867179303AA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,5 +29,9 @@ Global
 		{ED05A75A-4FF9-4BA0-8629-326ACBFBBEEB}.Debug|x86.ActiveCfg = Debug|x86
 		{ED05A75A-4FF9-4BA0-8629-326ACBFBBEEB}.Release|x86.Build.0 = Release|x86
 		{ED05A75A-4FF9-4BA0-8629-326ACBFBBEEB}.Release|x86.ActiveCfg = Release|x86
+		{3042C06F-21CC-45F4-B9D3-867179303AA2}.Debug|x86.Build.0 = Debug|x86
+		{3042C06F-21CC-45F4-B9D3-867179303AA2}.Debug|x86.ActiveCfg = Debug|x86
+		{3042C06F-21CC-45F4-B9D3-867179303AA2}.Release|x86.Build.0 = Release|x86
+		{3042C06F-21CC-45F4-B9D3-867179303AA2}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal

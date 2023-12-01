@@ -4,91 +4,52 @@
         <name>WordPress_Web</name>
     </assembly>
     <members>
-        <member name="T:WordPress_Web.CloseBrowser">
-             <summary>
-            The CloseBrowser recording.
-             </summary>
-        </member>
-        <member name="F:WordPress_Web.CloseBrowser.repo">
-            <summary>
-            Holds an instance of the WordPress_WebRepository repository.
-            </summary>
-        </member>
-        <member name="M:WordPress_Web.CloseBrowser.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:WordPress_Web.CloseBrowser.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="M:WordPress_Web.CloseBrowser.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:WordPress_Web.CloseBrowser.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:WordPress_Web.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:WordPress_Web.CloseBrowser.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="T:WordPress_Web.AddNewPost">
+        <member name="T:WordPress_Web.Recordings.AddNewPost">
              <summary>
             The AddNewPost recording.
              </summary>
         </member>
-        <member name="F:WordPress_Web.AddNewPost.repo">
+        <member name="F:WordPress_Web.Recordings.AddNewPost.repo">
             <summary>
-            Holds an instance of the WordPress_WebRepository repository.
+            Holds an instance of the global::WordPress_Web.WordPress_WebRepository repository.
             </summary>
         </member>
-        <member name="M:WordPress_Web.AddNewPost.#ctor">
+        <member name="M:WordPress_Web.Recordings.AddNewPost.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:WordPress_Web.AddNewPost.Instance">
+        <member name="P:WordPress_Web.Recordings.AddNewPost.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:WordPress_Web.AddNewPost.var_title">
+        <member name="P:WordPress_Web.Recordings.AddNewPost.var_title">
             <summary>
             Gets or sets the value of variable var_title.
             </summary>
         </member>
-        <member name="P:WordPress_Web.AddNewPost.var_content">
+        <member name="P:WordPress_Web.Recordings.AddNewPost.var_content">
             <summary>
             Gets or sets the value of variable var_content.
             </summary>
         </member>
-        <member name="P:WordPress_Web.AddNewPost.var_return_posted_link">
+        <member name="P:WordPress_Web.Recordings.AddNewPost.var_return_posted_link">
             <summary>
             Gets or sets the value of variable var_return_posted_link.
             </summary>
         </member>
-        <member name="P:WordPress_Web.AddNewPost.var_return_title">
+        <member name="P:WordPress_Web.Recordings.AddNewPost.var_return_title">
             <summary>
             Gets or sets the value of variable var_return_title.
             </summary>
         </member>
-        <member name="M:WordPress_Web.AddNewPost.Start">
+        <member name="M:WordPress_Web.Recordings.AddNewPost.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:WordPress_Web.AddNewPost.Instance"/>.
+            Starts the replay of the static recording <see cref="P:WordPress_Web.Recordings.AddNewPost.Instance"/>.
             </summary>
         </member>
-        <member name="M:WordPress_Web.AddNewPost.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:WordPress_Web.Recordings.AddNewPost.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -96,38 +57,77 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:WordPress_Web.AddNewPost.Init">
+        <member name="M:WordPress_Web.Recordings.AddNewPost.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:WordPress_Web.DeletePost">
+        <member name="T:WordPress_Web.Recordings.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.Recordings.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the global::WordPress_Web.WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Recordings.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.Recordings.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Recordings.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.Recordings.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Recordings.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.Recordings.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.Recordings.DeletePost">
              <summary>
             The DeletePost recording.
              </summary>
         </member>
-        <member name="F:WordPress_Web.DeletePost.repo">
+        <member name="F:WordPress_Web.Recordings.DeletePost.repo">
             <summary>
-            Holds an instance of the WordPress_WebRepository repository.
+            Holds an instance of the global::WordPress_Web.WordPress_WebRepository repository.
             </summary>
         </member>
-        <member name="M:WordPress_Web.DeletePost.#ctor">
+        <member name="M:WordPress_Web.Recordings.DeletePost.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:WordPress_Web.DeletePost.Instance">
+        <member name="P:WordPress_Web.Recordings.DeletePost.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="M:WordPress_Web.DeletePost.Start">
+        <member name="M:WordPress_Web.Recordings.DeletePost.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:WordPress_Web.DeletePost.Instance"/>.
+            Starts the replay of the static recording <see cref="P:WordPress_Web.Recordings.DeletePost.Instance"/>.
             </summary>
         </member>
-        <member name="M:WordPress_Web.DeletePost.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:WordPress_Web.Recordings.DeletePost.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -135,126 +135,48 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:WordPress_Web.DeletePost.Init">
+        <member name="M:WordPress_Web.Recordings.DeletePost.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:WordPress_Web.Logout">
-             <summary>
-            The Logout recording.
-             </summary>
-        </member>
-        <member name="F:WordPress_Web.Logout.repo">
-            <summary>
-            Holds an instance of the WordPress_WebRepository repository.
-            </summary>
-        </member>
-        <member name="M:WordPress_Web.Logout.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:WordPress_Web.Logout.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="M:WordPress_Web.Logout.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:WordPress_Web.Logout.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:WordPress_Web.Logout.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:WordPress_Web.Logout.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="T:WordPress_Web.OpenBrowser">
-             <summary>
-            The OpenBrowser recording.
-             </summary>
-        </member>
-        <member name="F:WordPress_Web.OpenBrowser.repo">
-            <summary>
-            Holds an instance of the WordPress_WebRepository repository.
-            </summary>
-        </member>
-        <member name="M:WordPress_Web.OpenBrowser.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:WordPress_Web.OpenBrowser.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="M:WordPress_Web.OpenBrowser.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:WordPress_Web.OpenBrowser.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:WordPress_Web.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:WordPress_Web.OpenBrowser.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="T:WordPress_Web.Login">
+        <member name="T:WordPress_Web.Recordings.Login">
              <summary>
             The Login recording.
              </summary>
         </member>
-        <member name="F:WordPress_Web.Login.repo">
+        <member name="F:WordPress_Web.Recordings.Login.repo">
             <summary>
-            Holds an instance of the WordPress_WebRepository repository.
+            Holds an instance of the global::WordPress_Web.WordPress_WebRepository repository.
             </summary>
         </member>
-        <member name="M:WordPress_Web.Login.#ctor">
+        <member name="M:WordPress_Web.Recordings.Login.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:WordPress_Web.Login.Instance">
+        <member name="P:WordPress_Web.Recordings.Login.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:WordPress_Web.Login.var_username">
+        <member name="P:WordPress_Web.Recordings.Login.var_username">
             <summary>
             Gets or sets the value of variable var_username.
             </summary>
         </member>
-        <member name="P:WordPress_Web.Login.var_password">
+        <member name="P:WordPress_Web.Recordings.Login.var_password">
             <summary>
             Gets or sets the value of variable var_password.
             </summary>
         </member>
-        <member name="M:WordPress_Web.Login.Start">
+        <member name="M:WordPress_Web.Recordings.Login.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:WordPress_Web.Login.Instance"/>.
+            Starts the replay of the static recording <see cref="P:WordPress_Web.Recordings.Login.Instance"/>.
             </summary>
         </member>
-        <member name="M:WordPress_Web.Login.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:WordPress_Web.Recordings.Login.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -262,38 +184,116 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:WordPress_Web.Login.Init">
+        <member name="M:WordPress_Web.Recordings.Login.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:WordPress_Web.ReturnToDashboard">
+        <member name="T:WordPress_Web.Recordings.Logout">
+             <summary>
+            The Logout recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.Recordings.Logout.repo">
+            <summary>
+            Holds an instance of the global::WordPress_Web.WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Recordings.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.Recordings.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Recordings.Logout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.Recordings.Logout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Recordings.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.Recordings.Logout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.Recordings.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.Recordings.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the global::WordPress_Web.WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Recordings.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.Recordings.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Recordings.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.Recordings.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Recordings.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.Recordings.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.Recordings.ReturnToDashboard">
              <summary>
             The ReturnToDashboard recording.
              </summary>
         </member>
-        <member name="F:WordPress_Web.ReturnToDashboard.repo">
+        <member name="F:WordPress_Web.Recordings.ReturnToDashboard.repo">
             <summary>
-            Holds an instance of the WordPress_WebRepository repository.
+            Holds an instance of the global::WordPress_Web.WordPress_WebRepository repository.
             </summary>
         </member>
-        <member name="M:WordPress_Web.ReturnToDashboard.#ctor">
+        <member name="M:WordPress_Web.Recordings.ReturnToDashboard.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:WordPress_Web.ReturnToDashboard.Instance">
+        <member name="P:WordPress_Web.Recordings.ReturnToDashboard.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="M:WordPress_Web.ReturnToDashboard.Start">
+        <member name="M:WordPress_Web.Recordings.ReturnToDashboard.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:WordPress_Web.ReturnToDashboard.Instance"/>.
+            Starts the replay of the static recording <see cref="P:WordPress_Web.Recordings.ReturnToDashboard.Instance"/>.
             </summary>
         </member>
-        <member name="M:WordPress_Web.ReturnToDashboard.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:WordPress_Web.Recordings.ReturnToDashboard.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -301,82 +301,43 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:WordPress_Web.ReturnToDashboard.Init">
+        <member name="M:WordPress_Web.Recordings.ReturnToDashboard.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:WordPress_Web.VerifyPostIsViewed">
+        <member name="T:WordPress_Web.Recordings.VerifyPostIsViewed">
              <summary>
             The VerifyPostIsViewed recording.
              </summary>
         </member>
-        <member name="F:WordPress_Web.VerifyPostIsViewed.repo">
+        <member name="F:WordPress_Web.Recordings.VerifyPostIsViewed.repo">
             <summary>
-            Holds an instance of the WordPress_WebRepository repository.
+            Holds an instance of the global::WordPress_Web.WordPress_WebRepository repository.
             </summary>
         </member>
-        <member name="M:WordPress_Web.VerifyPostIsViewed.#ctor">
+        <member name="M:WordPress_Web.Recordings.VerifyPostIsViewed.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:WordPress_Web.VerifyPostIsViewed.Instance">
+        <member name="P:WordPress_Web.Recordings.VerifyPostIsViewed.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:WordPress_Web.VerifyPostIsViewed.var_blog_title">
+        <member name="P:WordPress_Web.Recordings.VerifyPostIsViewed.var_blog_title">
             <summary>
             Gets or sets the value of variable var_blog_title.
             </summary>
         </member>
-        <member name="M:WordPress_Web.VerifyPostIsViewed.Start">
+        <member name="M:WordPress_Web.Recordings.VerifyPostIsViewed.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:WordPress_Web.VerifyPostIsViewed.Instance"/>.
+            Starts the replay of the static recording <see cref="P:WordPress_Web.Recordings.VerifyPostIsViewed.Instance"/>.
             </summary>
         </member>
-        <member name="M:WordPress_Web.VerifyPostIsViewed.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:WordPress_Web.VerifyPostIsViewed.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="T:WordPress_Web.ViewAllPost">
-             <summary>
-            The ViewAllPost recording.
-             </summary>
-        </member>
-        <member name="F:WordPress_Web.ViewAllPost.repo">
-            <summary>
-            Holds an instance of the WordPress_WebRepository repository.
-            </summary>
-        </member>
-        <member name="M:WordPress_Web.ViewAllPost.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:WordPress_Web.ViewAllPost.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="M:WordPress_Web.ViewAllPost.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:WordPress_Web.ViewAllPost.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:WordPress_Web.ViewAllPost.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:WordPress_Web.Recordings.VerifyPostIsViewed.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -384,43 +345,43 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:WordPress_Web.ViewAllPost.Init">
+        <member name="M:WordPress_Web.Recordings.VerifyPostIsViewed.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:WordPress_Web.ViewAddedPost">
+        <member name="T:WordPress_Web.Recordings.ViewAddedPost">
              <summary>
             The ViewAddedPost recording.
              </summary>
         </member>
-        <member name="F:WordPress_Web.ViewAddedPost.repo">
+        <member name="F:WordPress_Web.Recordings.ViewAddedPost.repo">
             <summary>
-            Holds an instance of the WordPress_WebRepository repository.
+            Holds an instance of the global::WordPress_Web.WordPress_WebRepository repository.
             </summary>
         </member>
-        <member name="M:WordPress_Web.ViewAddedPost.#ctor">
+        <member name="M:WordPress_Web.Recordings.ViewAddedPost.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:WordPress_Web.ViewAddedPost.Instance">
+        <member name="P:WordPress_Web.Recordings.ViewAddedPost.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:WordPress_Web.ViewAddedPost.url_to_view">
+        <member name="P:WordPress_Web.Recordings.ViewAddedPost.url_to_view">
             <summary>
             Gets or sets the value of variable url_to_view.
             </summary>
         </member>
-        <member name="M:WordPress_Web.ViewAddedPost.Start">
+        <member name="M:WordPress_Web.Recordings.ViewAddedPost.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:WordPress_Web.ViewAddedPost.Instance"/>.
+            Starts the replay of the static recording <see cref="P:WordPress_Web.Recordings.ViewAddedPost.Instance"/>.
             </summary>
         </member>
-        <member name="M:WordPress_Web.ViewAddedPost.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:WordPress_Web.Recordings.ViewAddedPost.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -428,7 +389,46 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:WordPress_Web.ViewAddedPost.Init">
+        <member name="M:WordPress_Web.Recordings.ViewAddedPost.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:WordPress_Web.Recordings.ViewAllPost">
+             <summary>
+            The ViewAllPost recording.
+             </summary>
+        </member>
+        <member name="F:WordPress_Web.Recordings.ViewAllPost.repo">
+            <summary>
+            Holds an instance of the global::WordPress_Web.WordPress_WebRepository repository.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Recordings.ViewAllPost.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:WordPress_Web.Recordings.ViewAllPost.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Recordings.ViewAllPost.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:WordPress_Web.Recordings.ViewAllPost.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:WordPress_Web.Recordings.ViewAllPost.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WordPress_Web.Recordings.ViewAllPost.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
