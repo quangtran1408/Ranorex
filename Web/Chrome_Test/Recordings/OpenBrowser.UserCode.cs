@@ -20,9 +20,9 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace Chrome_Test
+namespace Chrome_Test.Recordings
 {
-    public partial class Search
+    public partial class OpenBrowser
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

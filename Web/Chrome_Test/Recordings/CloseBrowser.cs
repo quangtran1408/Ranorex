@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Chrome_Test
+namespace Chrome_Test.Recordings
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The OpenBrowser recording.
+    ///The CloseBrowser recording.
     /// </summary>
-    [TestModule("b2e379b8-fbbe-42d5-bf9a-0983ee661bdf", ModuleType.Recording, 1)]
-    public partial class OpenBrowser : ITestModule
+    [TestModule("3407bd7f-4b1b-46f5-a4e7-1c2a187f854f", ModuleType.Recording, 1)]
+    public partial class CloseBrowser : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the Chrome_TestRepository repository.
+        /// Holds an instance of the global::Chrome_Test.Chrome_TestRepository repository.
         /// </summary>
-        public static Chrome_TestRepository repo = Chrome_TestRepository.Instance;
+        public static global::Chrome_Test.Chrome_TestRepository repo = global::Chrome_Test.Chrome_TestRepository.Instance;
 
-        static OpenBrowser instance = new OpenBrowser();
+        static CloseBrowser instance = new CloseBrowser();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public OpenBrowser()
+        public CloseBrowser()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static OpenBrowser Instance
+        public static CloseBrowser Instance
         {
             get { return instance; }
         }
@@ -79,16 +79,11 @@ namespace Chrome_Test
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.google.com' with browser 'Chrome' in maximized mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://www.google.com", "Chrome", "", false, true, false, false, false, false, false, true);
+            Close_application_Chrome_Web(repo.Chrome_window.SelfInfo);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
             Delay.Duration(5000, false);
-            
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'GoogleChrome_window'.", repo.GoogleChrome_window.SelfInfo, new RecordItemIndex(2));
-            repo.GoogleChrome_window.Self.EnsureVisible();
-            Delay.Milliseconds(0);
             
         }
 

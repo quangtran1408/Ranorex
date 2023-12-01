@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Chrome_Test
+namespace Chrome_Test.Recordings
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The BackToHomePage recording.
+    ///The OpenBrowser recording.
     /// </summary>
-    [TestModule("c5b83313-ab86-4e05-9a58-4a98973ad8a0", ModuleType.Recording, 1)]
-    public partial class BackToHomePage : ITestModule
+    [TestModule("b2e379b8-fbbe-42d5-bf9a-0983ee661bdf", ModuleType.Recording, 1)]
+    public partial class OpenBrowser : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the Chrome_TestRepository repository.
+        /// Holds an instance of the global::Chrome_Test.Chrome_TestRepository repository.
         /// </summary>
-        public static Chrome_TestRepository repo = Chrome_TestRepository.Instance;
+        public static global::Chrome_Test.Chrome_TestRepository repo = global::Chrome_Test.Chrome_TestRepository.Instance;
 
-        static BackToHomePage instance = new BackToHomePage();
+        static OpenBrowser instance = new OpenBrowser();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public BackToHomePage()
+        public OpenBrowser()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static BackToHomePage Instance
+        public static OpenBrowser Instance
         {
             get { return instance; }
         }
@@ -79,12 +79,16 @@ namespace Chrome_Test
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoogleChrome_window.back_button' at 20;15.", repo.GoogleChrome_window.back_buttonInfo, new RecordItemIndex(0));
-            repo.GoogleChrome_window.back_button.Click("20;15");
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.google.com' with browser 'Chrome' in maximized mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("https://www.google.com", "Chrome", "", false, true, false, false, false, false, false, true);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(1));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
+            Delay.Duration(5000, false);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'GoogleChrome_window'.", repo.GoogleChrome_window.SelfInfo, new RecordItemIndex(2));
+            repo.GoogleChrome_window.Self.EnsureVisible();
+            Delay.Milliseconds(0);
             
         }
 

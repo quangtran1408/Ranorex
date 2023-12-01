@@ -20,7 +20,7 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Chrome_Test
+namespace Chrome_Test.Recordings
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
@@ -30,9 +30,9 @@ namespace Chrome_Test
     public partial class Search : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the Chrome_TestRepository repository.
+        /// Holds an instance of the global::Chrome_Test.Chrome_TestRepository repository.
         /// </summary>
-        public static Chrome_TestRepository repo = Chrome_TestRepository.Instance;
+        public static global::Chrome_Test.Chrome_TestRepository repo = global::Chrome_Test.Chrome_TestRepository.Instance;
 
         static Search instance = new Search();
 

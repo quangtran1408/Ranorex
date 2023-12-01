@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Chrome_Test
+namespace Chrome_Test.Recordings
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The CloseBrowser recording.
+    ///The BackToHomePage recording.
     /// </summary>
-    [TestModule("3407bd7f-4b1b-46f5-a4e7-1c2a187f854f", ModuleType.Recording, 1)]
-    public partial class CloseBrowser : ITestModule
+    [TestModule("c5b83313-ab86-4e05-9a58-4a98973ad8a0", ModuleType.Recording, 1)]
+    public partial class BackToHomePage : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the Chrome_TestRepository repository.
+        /// Holds an instance of the global::Chrome_Test.Chrome_TestRepository repository.
         /// </summary>
-        public static Chrome_TestRepository repo = Chrome_TestRepository.Instance;
+        public static global::Chrome_Test.Chrome_TestRepository repo = global::Chrome_Test.Chrome_TestRepository.Instance;
 
-        static CloseBrowser instance = new CloseBrowser();
+        static BackToHomePage instance = new BackToHomePage();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public CloseBrowser()
+        public BackToHomePage()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static CloseBrowser Instance
+        public static BackToHomePage Instance
         {
             get { return instance; }
         }
@@ -79,11 +79,12 @@ namespace Chrome_Test
 
             Init();
 
-            Close_application_Chrome_Web(repo.Chrome_window.SelfInfo);
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoogleChrome_window.back_button' at 20;15.", repo.GoogleChrome_window.back_buttonInfo, new RecordItemIndex(0));
+            repo.GoogleChrome_window.back_button.Click("20;15");
+            Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(1));
+            Delay.Duration(2000, false);
             
         }
 
