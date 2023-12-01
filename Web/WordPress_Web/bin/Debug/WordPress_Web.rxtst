@@ -2,12 +2,6 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
-			<testmodule
-			id="08027cda-ca7f-4176-ab6f-a2d621861895"
-			name="OpenBrowser"
-			ref="6cc00e98-71b2-4a22-b34b-85d1f8705da9"
-			type="Recording">
-			</testmodule>
 			<testsuite
 			ExportColumnList="None"
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -43,6 +37,11 @@
 			id="15d19265-8451-4c52-b4b7-1a71ccedcb21"
 			name="setup">
 			</setup>
+			<modulegroup
+			id="52bf226f-7fa1-48d3-8f45-dc12166fb80f"
+			name="LogoutAndCloseAUT"
+			ref="ed58a917-7e98-4c6f-87bd-c2412b545292">
+			</modulegroup>
 			<testmodule
 			id="58656154-7b48-42ab-846c-6736fdfed902"
 			name="VerifyPostIsViewed"
@@ -57,10 +56,29 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<modulegroup
+			id="5f18799b-72ba-4727-b39b-accc91606089"
+			name="LaunchAUTAndLogin"
+			ref="dcb9fde8-1148-4d17-81a7-4ec96f635cca">
+				<databinding>
+					<var
+					dataname="var_username"
+					datasourceid="ba288fd0-bdef-4dd0-9112-ec1c1839e7aa"
+					variableid="430aea63-b94b-4255-b30f-902ab615fb6b"
+					variablename="var_username">
+					</var>
+					<var
+					dataname="var_password"
+					datasourceid="ba288fd0-bdef-4dd0-9112-ec1c1839e7aa"
+					variableid="6468004f-97f0-4166-9fbe-0bc6407f5468"
+					variablename="var_password">
+					</var>
+				</databinding>
+			</modulegroup>
 			<testcase
 			datasource="TC_WordPress_Testing_DataSource"
 			id="6fb6a032-fae0-4540-8925-147ca2eca538"
-			name="TC_WordPress_Testing">
+			name="TC_WordPress_Testing_On_Chrome">
 				<parameters>
 					<param
 					mask="False"
@@ -89,42 +107,10 @@
 			name="teardown">
 			</teardown>
 			<testmodule
-			id="802af65d-95e2-4767-a069-d9d3ce053b11"
-			name="CloseBrowser"
-			ref="31c818bb-5d6c-4e97-9b00-eb4c512a5cd9"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="8c439c45-a63b-4869-8643-128008ec7893"
-			name="CloseBrowser"
-			ref="31c818bb-5d6c-4e97-9b00-eb4c512a5cd9"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="96d5c9e9-74af-45dd-a10d-b4a03acb9a9b"
 			name="DeletePost"
 			ref="a19da4eb-b0c9-4b9a-bf2d-e8324826bf07"
 			type="Recording">
-			</testmodule>
-			<testmodule
-			id="af7994dc-97c7-4c1c-9fe8-9d932d6dbad7"
-			name="Login"
-			ref="a1babbd3-37eb-438e-9253-107a9e12a62e"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="var_username"
-					datasourceid="ba288fd0-bdef-4dd0-9112-ec1c1839e7aa"
-					variableid="b77cf8a9-b7fb-4d0f-8a8e-ad5ff39fcf02"
-					variablename="var_username">
-					</var>
-					<var
-					dataname="var_password"
-					datasourceid="ba288fd0-bdef-4dd0-9112-ec1c1839e7aa"
-					variableid="5929c5c0-658a-4f06-abc0-164c736bb66c"
-					variablename="var_password">
-					</var>
-				</databinding>
 			</testmodule>
 			<testmodule
 			id="bfd90de5-815b-4bc8-9f99-8e6a37746ef6"
@@ -177,12 +163,6 @@
 			name="WordPress_Web"
 			reportlevel="Info;20">
 			</testcase>
-			<testmodule
-			id="f7117c91-b8be-4848-85bf-ba183d74d215"
-			name="Logout"
-			ref="ad477305-533c-47ba-a004-618f818b1038"
-			type="Recording">
-			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -193,23 +173,15 @@
 				name="WordPress_Web">
 					<testcase
 					id="6fb6a032-fae0-4540-8925-147ca2eca538"
-					name="TC_WordPress_Testing">
+					name="TC_WordPress_Testing_On_Chrome">
 						<setup
 						id="15d19265-8451-4c52-b4b7-1a71ccedcb21"
 						name="setup">
-							<testmodule
-							id="8c439c45-a63b-4869-8643-128008ec7893"
-							name="CloseBrowser">
-							</testmodule>
-							<testmodule
-							id="08027cda-ca7f-4176-ab6f-a2d621861895"
-							name="OpenBrowser">
-							</testmodule>
+							<modulegroup
+							id="5f18799b-72ba-4727-b39b-accc91606089"
+							name="LaunchAUTAndLogin">
+							</modulegroup>
 						</setup>
-						<testmodule
-						id="af7994dc-97c7-4c1c-9fe8-9d932d6dbad7"
-						name="Login">
-						</testmodule>
 						<testmodule
 						id="bfd90de5-815b-4bc8-9f99-8e6a37746ef6"
 						name="AddNewPost">
@@ -226,17 +198,13 @@
 						id="96d5c9e9-74af-45dd-a10d-b4a03acb9a9b"
 						name="DeletePost">
 						</testmodule>
-						<testmodule
-						id="f7117c91-b8be-4848-85bf-ba183d74d215"
-						name="Logout">
-						</testmodule>
 						<teardown
 						id="78d1395f-cde8-4510-9fd3-75a6cb63d8ab"
 						name="teardown">
-							<testmodule
-							id="802af65d-95e2-4767-a069-d9d3ce053b11"
-							name="CloseBrowser">
-							</testmodule>
+							<modulegroup
+							id="52bf226f-7fa1-48d3-8f45-dc12166fb80f"
+							name="LogoutAndCloseAUT">
+							</modulegroup>
 						</teardown>
 					</testcase>
 				</testcase>
