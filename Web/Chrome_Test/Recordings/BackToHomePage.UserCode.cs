@@ -20,7 +20,7 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace Chrome_Test
+namespace Chrome_Test.Recordings
 {
     public partial class BackToHomePage
     {

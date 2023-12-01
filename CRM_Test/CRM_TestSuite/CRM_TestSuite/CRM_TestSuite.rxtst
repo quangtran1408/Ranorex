@@ -13,16 +13,16 @@
 			ref="2c4c1e3f-d39c-431e-b553-0f6e7006f408">
 				<databinding>
 					<var
-					dataname="varUsername"
-					datasourceid="9f33559c-206a-4f16-9774-a54a0e1b1be6"
-					variableid="6a6ff76d-3d13-47d9-9ae0-5135d3669bbc"
-					variablename="varUsername">
-					</var>
-					<var
 					dataname="varPassword"
 					datasourceid="9f33559c-206a-4f16-9774-a54a0e1b1be6"
 					variableid="081d4b61-5f60-4176-8671-fc109a385df8"
 					variablename="varPassword">
+					</var>
+					<var
+					dataname="varUsername"
+					datasourceid="9f33559c-206a-4f16-9774-a54a0e1b1be6"
+					variableid="6a6ff76d-3d13-47d9-9ae0-5135d3669bbc"
+					variablename="varUsername">
 					</var>
 				</databinding>
 			</modulegroup>

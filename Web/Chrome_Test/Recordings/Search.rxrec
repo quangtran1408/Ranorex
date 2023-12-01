@@ -23,7 +23,7 @@ mode="Desktop">
 	</useDefaultItemLogging>
 	<codegen
 	classname="Search"
-	namespace="Chrome_Test">
+	namespace="Chrome_Test.Recordings">
 	</codegen>
 	<variables>
 		<var
@@ -163,7 +163,7 @@ mode="Desktop">
 	<repository
 	id="49cf3a26-a542-4035-b0ff-0e29ce9bcbe4"
 	name="Chrome_TestRepository"
-	relativepath="Chrome_TestRepository.rxrep">
+	relativepath="..\Chrome_TestRepository.rxrep">
 		<codegen
 		classname="Chrome_TestRepository"
 		namespace="Chrome_Test">

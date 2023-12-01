@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="3407bd7f-4b1b-46f5-a4e7-1c2a187f854f"
+id="c5b83313-ab86-4e05-9a58-4a98973ad8a0"
 mode="Desktop">
 	<repeatcount>
 		1
@@ -19,48 +19,40 @@ mode="Desktop">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="CloseBrowser"
-	namespace="Chrome_Test">
+	classname="BackToHomePage"
+	namespace="Chrome_Test.Recordings">
 	</codegen>
 	<variables>
 	</variables>
 	<recorditems>
-		<userrecorditem
-		autogenmethod="True"
-		classname="CloseBrowser"
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
 		enabled="True"
-		isexternaltestmethod="False"
-		methodname="Close_application_Chrome_Web"
-		namespace="WordPress_Web"
-		optional="False">
+		loc="20;15"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c957acd4-ff3e-415a-a229-b1e29b540735"
+		sx="20"
+		sy="56"
+		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<arguments
-			id="b309a383-ed2f-4977-b7a3-7032b3ffb1f6">
-				<argument
-				argname="webdocumentInfo"
-				id="290a5cbc-12a5-4add-9192-3f488a42afae">
-					<argvaluetype>
-						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
-					</argvaluetype>
-					<argvalue>
-					</argvalue>
-					<info
-					id="a155b99a-4dc4-400a-82af-16e9dbc48fe5"
-					sourcename="ItemRecorderEditor">
-						<path>
-							/dom[@browsername='Chrome']
-						</path>
-						<robustPath>
-						</robustPath>
-					</info>
-				</argument>
-			</arguments>
-		</userrecorditem>
+			<info
+			id="521f5d82-d28d-470f-9a52-ac9deef1c93a"
+			sourcename="Recorder">
+				<path>
+					/form[@title='Google - Google Chrome']//toolbar[@accessiblerole='ToolBar']//button[@accessiblename='Back']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
 		<explicitdelayitem
-		duration="5000ms"
+		duration="2000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -72,7 +64,7 @@ mode="Desktop">
 	<repository
 	id="49cf3a26-a542-4035-b0ff-0e29ce9bcbe4"
 	name="Chrome_TestRepository"
-	relativepath="Chrome_TestRepository.rxrep">
+	relativepath="..\Chrome_TestRepository.rxrep">
 		<codegen
 		classname="Chrome_TestRepository"
 		namespace="Chrome_Test">
@@ -84,7 +76,7 @@ mode="Desktop">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		CloseBrowser.UserCode.cs
+		BackToHomePage.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>
